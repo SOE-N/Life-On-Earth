@@ -1,0 +1,15 @@
+.box {
+            border: 2px solid black;
+            height: 220px;
+            background-color: white;
+        }
+.box{
+    border-radius: 10px;
+}
+    
+
+.dropdown-item:hover{
+        color: white;
+        background-color: black;
+    }
+
