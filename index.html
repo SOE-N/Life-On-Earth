@@ -5,10 +5,18 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="author" content="Soe_Nyi_Nyi">
 	<title>Life On Land</title>
+
+	<!-- Bootstrap -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="https://cdn.lineicons.com/5.0/lineicons.css" />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=BBH+Sans+Hegarty&family=Bebas+Neue&family=Bungee+Spice&family=Dancing+Script:wght@400..700&family=Honk&family=Inconsolata:wght@200..900&family=Noto+Sans+JP:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
+    
 	<link rel="stylesheet" href="style.css">
 
 </head>
@@ -16,9 +24,12 @@
 
 	    <header>
 	    	<!-- Navigation bar starts -->
-	    	<nav class="navbar navbar-expand-lg py-4 shadow" style="height: 70px;"> 
-			     <div class="container px-4">
-			            <h1 id="title">Life on Land</h1>
+	    	<nav class="navbar navbar-expand-lg py-1 shadow"> 
+			     <div class="container px-4 d-flex justify-content-between align-items-center">
+			     	    <div class="d-flex align-items-center gap-3">
+			     	    	<img id="logo" src="image/logo.png" alt="image of logo">
+			                <h1 id="title">Life on Land</h1>
+			     	    </div>
 			        
 			            <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#top-navbar" aria-controls="top-navbar"> 
 			             <i class="lni lni-cloud-sun"></i>
@@ -67,26 +78,58 @@
 		        <div class="row g-4">
 
 		            <div class="col-md-6">
-		                <div class="content-box forest" >
-		                <h5>End Deforestation & Restore Degraded Forests</h5> 	
+		                <div class="content-box">
+		                	<div class="top" >
+			                <h5>End Deforestation & Restore Degraded Forests</h5> 
+			                <p>Forest restoration helps rebuild ecosystems, protect wildlife, and reduce the impact of climate change. Learn how replanting and conservation efforts bring forests back to life.</p>	
+			                <a href="https://ocm.iccrom.org/sdgs/sdg-15-life-land/sdg-152-end-deforestation-and-restore-degraded-forests" target="blank" class="btn btn-success mt-2" >Learn More...</a>
+			                </div>
+
+			                <div class="bottom">
+			                	<img src="image/Deforestation.jpg" alt="forest image">
+			                </div>
 		                </div>
 		            </div>
 
 		            <div class="col-md-6">
-		                <div class="content-box biodiversity" >
-		                <h5>Protect Biodiversity & Natural Habitats </h5>	
+		                <div class="content-box">
+		                	<div class="top" >
+			                <h5>Protect Biodiversity & Natural Habitats </h5>	
+			                <p>Biodiversity keeps our planet balanced. Discover how protecting natural habitats supports endangered species and preserves healthy ecosystems for future generations.</p>	
+			                <a href="https://news.un.org/en/story/2024/01/1145772" target="blank" class="btn btn-success mt-2" >Learn More...</a>
+			                </div>
+
+			                <div class="bottom">
+			                	<img class="shiftup" src="image/biodiversity.webp" alt="forest image">
+			                </div>
+			            </div>
+		            </div>
+
+		            <div class="col-md-6">
+		                <div class="content-box">
+		                	<div class="top" >
+			                <h5>Conservation of Wildlfie & Mountain Ecosystems</h5> 	
+			                <p>Mountain ecosystems are home to unique plants and animals. Explore how conservation efforts safeguard wildlife and maintain the fragile balance of high-altitude environments.</p>
+			                <a href="https://diversedaily.com/strategies-for-mountain-wildlife-conservation-protecting-endangered-species-and-preserving-biodiversity-in-fragile-ecosystems/#:~:text=International%20agreements%20and%20conventions%2C%20such%20as%20the%20Convention,together%20in%20protecting%20mountain%20wildlife%20and%20their%20habitats." target="blank" class="btn btn-success mt-2" >Learn More...</a>
+			                </div>
+
+			                <div class="bottom">
+			                	<img src="image/mountainous-ecosystem.jpg" alt="forest image">
+			                </div>
 		                </div>
 		            </div>
 
 		            <div class="col-md-6">
-		                <div class="content-box ecosystem" >
-		                <h5>Conservation of Wildlfie & Mountain Ecosystems</h5> 	
-		                </div>
-		            </div>
-
-		            <div class="col-md-6">
-		                <div class="content-box land" >
-		                <h5>Sustainable Farming & End Desertification</h5>	
+		                <div class="content-box">
+		                	<div class="top" >
+			                <h5>Sustainable Farming & End Desertification</h5>	
+			                <p>Sustainable farming reduces soil degradation and prevents land from turning into desert. Learn how eco-friendly agricultural practices help protect fertile land and local communities.</p>	
+			                <a href="https://www.fao.org/desertification-and-drought-day/en#:~:text=The%20decision%20made%20last%20year%20by%20the%20United,the%20context%20of%20climate%20change%20and%20environmental%20degradation." target="blank" class="btn btn-success mt-2" >Learn More...</a>
+			                </div>
+			                
+			                <div class="bottom">
+			                	<img class="dragdown" src="image/desert.jpeg" alt="forest image">
+			                </div>
 		                </div>
 		            </div>
 
