@@ -30,6 +30,12 @@
   font-style: italic;
 }
 
+.cormorant-<uniquifier> {
+  font-family: "Cormorant", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
 
 
 /* Navbar start*/
@@ -193,26 +199,38 @@ h5 {
 
 /* Page 2 start */
 .box {
-        border: 2px solid black;
-        height: 232px;
+        height: 238px;
         border-radius: 10px;
-        margin-bottom: 20px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        padding: 10px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+@media (max-width: 1200px) {
+    .box {
+        min-height: auto;
+        height: auto;
+    }
+}
+@media (max-width: 992px) {
+    .box {
+        min-height: auto;
+        height: auto;
+    }
 }
 
-/* First */
+/* First Row*/
 .column{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    height: 100%;
-    margin-top: 10px;
-    margin-bottom: 20px;
+
 
 }
 .small-btn {
     width: 100%;
     height: 60px;
-    border: 2px solid black;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
     border-radius: 12px;
     background: white;
     font-size: 16px;
@@ -234,10 +252,58 @@ h5 {
     transform: scale(1.05);
 }
 
+.first-row p{
+    text-align: justify;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+/* Second Row */
+
+.second-row p{
+    text-align: justify;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    padding-top: 20px;
+}
 
 
 
+/* Third Row */
 
+.text{
+    padding-top: 15px;
+    text-align: justify;
+}
+
+.second-page h5{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    margin: 10px 0px;
+
+}
+.third-row p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: 15px;
+    padding: 10px;
+    
+}
+
+.third-row ul{
+    text-align: justify;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    padding-left: 15px;
+}
 
 /* Page 2 End */ 
 
