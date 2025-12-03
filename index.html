@@ -20,12 +20,13 @@
 	<link rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
 
 	    <header>
-	    	<!-- Navigation bar starts -->
-	    	<nav class="navbar navbar-expand-lg py-1 shadow"> 
-			     <div class="container px-4 d-flex justify-content-between align-items-center">
+	    	<!-- ********  Navigation bar starts  ******** -->
+	    	<nav id="navbar" class="navbar py-1 navbar-expand-lg shadow fixed-top"> 
+			     <div class="container px-1 d-flex justify-content-between align-items-center">
 			     	    <div class="d-flex align-items-center gap-3">
 			     	    	<img id="logo" src="image/logo.png" alt="image of logo">
 			                <h1 id="title">Life on Land</h1>
@@ -43,7 +44,7 @@
 
 			            <div class="offcanvas offcanvas-end" tabindex="-1" id="top-navbar">
 			               			               			          
-			                <ul class="navbar-nav ms-lg-auto p-4 p-lg-0">
+			                <ul class="navbar-nav ms-lg-auto p-4 p-lg-4">
 			                  <li class="nav-item px-3 py-lg-4">
 			                    <a class="nav-link active" aria-current="page" href="#">Home</a>
 			                  </li>
@@ -51,22 +52,21 @@
 			                    <a class="nav-link active" aria-current="page" href="#">About</a>
 			                  </li>
 			                  <li class="nav-item px-3 py-lg-4">
-			                    <a class="nav-link active" aria-current="page" href="#">Project</a>
+			                    <a class="nav-link active" aria-current="page" href="#project">Project</a>
 			                  </li>
 			                  <li class="nav-item px-3 py-lg-4">
-			                    <a class="nav-link active" aria-current="page" href="#">Campaign</a>
-			                  </li>			           
+			                    <a class="nav-link active" aria-current="page" href="#campaign">Campaign</a>
+			                  </li>					                  	           
 			                  <li class="nav-item px-3 py-lg-4 dropdown">
 			                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
 			                      Contact
 			                    </a>
-			                    <ul class="dropdown-menu">
-			                      <li><a class="dropdown-item" href="#">Email</a></li>
-			                      <li><a class="dropdown-item" href="#">Phone</a></li>
-			                      <li><a class="dropdown-item" href="#">Live chat</a></li>
-			                    </ul>
-			                  </li>
-			                  
+				                    <ul class="dropdown-menu">
+				                      <li><a class="dropdown-item" href="#">Email</a></li>
+				                      <li><a class="dropdown-item" href="#">Phone</a></li>
+				                      <li><a class="dropdown-item" href="#">Live chat</a></li>
+				                    </ul>
+			                  </li>			                  
 			                </ul>  			             
 			          </div>
 
@@ -74,35 +74,35 @@
 
 			</nav>
 
-			<!-- Navigation bar ends -->
+			<!-- ********  Navigation bar ends  ******** -->
 	    </header>
 
         
-        <!-- Page 1 -->
-        <section>
+        <!-- ********  Page 1  ******** -->
+        <section id="project">
         	<div class="container my-5 page1">
 		        <div class="row g-4">
-
 		            <div class="col-md-6">
 		                <div class="content-box">
 		                	<div class="top" >
-			                <h5>End Deforestation & Restore Degraded Forests</h5> 
-			                <p>Forest restoration helps rebuild ecosystems, protect wildlife, and reduce the impact of climate change. Learn how replanting and conservation efforts bring forests back to life.</p>	
-			                <a href="https://ocm.iccrom.org/sdgs/sdg-15-life-land/sdg-152-end-deforestation-and-restore-degraded-forests" target="blank" class="btn btn-success mt-2" >Learn More...</a>
+				                <h5>End Deforestation & Restore Degraded Forests</h5> 
+				                <p>Forest restoration helps rebuild ecosystems, protect wildlife, and reduce the impact of climate change. Learn how replanting and conservation efforts bring forests back to life.</p>	
+				                <a href="https://ocm.iccrom.org/sdgs/sdg-15-life-land/sdg-152-end-deforestation-and-restore-degraded-forests" target="blank" class="btn btn-success mt-2" >Learn More...</a>
 			                </div>
 
 			                <div class="bottom">
 			                	<img src="image/Deforestation.jpg" alt="forest image">
 			                </div>
-		                </div>
+			            </div>    
 		            </div>
+		 
 
 		            <div class="col-md-6">
 		                <div class="content-box">
 		                	<div class="top" >
-			                <h5>Protect Biodiversity & Natural Habitats </h5>	
-			                <p>Biodiversity keeps our planet balanced. Discover how protecting natural habitats supports endangered species and preserves healthy ecosystems for future generations.</p>	
-			                <a href="https://news.un.org/en/story/2024/01/1145772" target="blank" class="btn btn-success mt-2" >Learn More...</a>
+				                <h5>Protect Biodiversity & Natural Habitats </h5>	
+				                <p>Biodiversity keeps our planet balanced. Discover how protecting natural habitats supports endangered species and preserves healthy ecosystems for future generations.</p>	
+				                <a href="https://news.un.org/en/story/2024/01/1145772" target="blank" class="btn btn-success mt-2" >Learn More...</a>
 			                </div>
 
 			                <div class="bottom">
@@ -114,9 +114,9 @@
 		            <div class="col-md-6">
 		                <div class="content-box">
 		                	<div class="top" >
-			                <h5>Conservation of Wildlfie & Mountain Ecosystems</h5> 	
-			                <p>Mountain ecosystems are home to unique plants and animals. Explore how conservation efforts safeguard wildlife and maintain the fragile balance of high-altitude environments.</p>
-			                <a href="https://diversedaily.com/strategies-for-mountain-wildlife-conservation-protecting-endangered-species-and-preserving-biodiversity-in-fragile-ecosystems/#:~:text=International%20agreements%20and%20conventions%2C%20such%20as%20the%20Convention,together%20in%20protecting%20mountain%20wildlife%20and%20their%20habitats." target="blank" class="btn btn-success mt-2" >Learn More...</a>
+				                <h5>Conservation of Wildlfie & Mountain Ecosystems</h5> 	
+				                <p>Mountain ecosystems are home to unique plants and animals. Explore how conservation efforts safeguard wildlife and maintain the fragile balance of high-altitude environments.</p>
+				                <a href="https://diversedaily.com/strategies-for-mountain-wildlife-conservation-protecting-endangered-species-and-preserving-biodiversity-in-fragile-ecosystems/#:~:text=International%20agreements%20and%20conventions%2C%20such%20as%20the%20Convention,together%20in%20protecting%20mountain%20wildlife%20and%20their%20habitats." target="blank" class="btn btn-success mt-2" >Learn More...</a>
 			                </div>
 
 			                <div class="bottom">
@@ -128,9 +128,9 @@
 		            <div class="col-md-6">
 		                <div class="content-box">
 		                	<div class="top" >
-			                <h5>Sustainable Farming & End Desertification</h5>	
-			                <p>Sustainable farming reduces soil degradation and prevents land from turning into desert. Learn how eco-friendly agricultural practices help protect fertile land and local communities.</p>	
-			                <a href="https://www.fao.org/desertification-and-drought-day/en#:~:text=The%20decision%20made%20last%20year%20by%20the%20United,the%20context%20of%20climate%20change%20and%20environmental%20degradation." target="blank" class="btn btn-success mt-2" >Learn More...</a>
+				                <h5>Sustainable Farming & End Desertification</h5>	
+				                <p>Sustainable farming reduces soil degradation and prevents land from turning into desert. Learn how eco-friendly agricultural practices help protect fertile land and local communities.</p>	
+				                <a href="https://www.fao.org/desertification-and-drought-day/en#:~:text=The%20decision%20made%20last%20year%20by%20the%20United,the%20context%20of%20climate%20change%20and%20environmental%20degradation." target="blank" class="btn btn-success mt-2" >Learn More...</a>
 			                </div>
 			                
 			                <div class="bottom">
@@ -143,23 +143,24 @@
 		    </div>
 
         </section>
-        <!-- page 1 ends -->
+        <!-- ********  page 1 ends  ******** -->
 
 
-        <!-- page 2 starts -->
-        <section>
+        <!--  ******** page 2 starts  ******** -->
+        <section id="campaign">
         	<div class="container my-5 border second-page" >
 
+
 		        <!-- First row -->
-		        <div class="row mb-4 first-row">
-		            <div class="col-md-3 rounded">
-		                <div class="box" >
-		                	<h5>Project Overview</h5>
+		        <div class="row mb-4 first-row align-items-stretch h-75">
+		            <div class="col-md-3 ">
+		                <div class="box overview" >
+		                	<h5>Project Overview</h5> <hr>
 		                	<p>The Life on Land Project is a collaborative initiative committed to restoring ecostystems, protrcting biodiversity, and driving sustainable land-use practices. Our work unites communities, organizations, and youth leaders to take meaningful action towards achieving the United Nations Sustainable Development Goal 15.</p>
 		                </div>
 		            </div>
 
-		            <div class="col-md-2 d-flex flex-column justify-content-center gap-3 column">
+		            <div class="col-md-2 d-flex py-4 flex-column justify-content-center gap-3 column">
 				        <a href="https://globalgoals.org/resources/" target="blank" class="small-btn">RESOURCES</a>
 					    <a href="https://globalgoals.org/take-action/" target="blank" class="small-btn">TAKE ACTION</a>
 					    <a href="https://globalgoals.org/goals/15-life-on-land/#things-to-do" target="blank" class="small-btn">THINGS TO DO</a>
@@ -167,50 +168,51 @@
 
 
 		            <div class="col-md-7 right-box">
-		                <div class="box">
-		                	<h5>Featured Impact Project</h5>
+		                <div class="box impact">
+		                	<h5>Featured Impact Project</h5> <hr>
 		                	<p>Our featured initiative, “Forest Guardians Program,” trains local youth and community members to monitor forest health, track biodiversity, and prevent illegal logging using digital tools and open-source mapping technology. This project has helped restore over 5,000 hectares of degraded land and empowered more than 2,000 young environmental leaders.</p>
 		                </div>
 		            </div>
 		        </div>
+
                 
-                <!-- Second row -->
-		        <div class="row mb-4 second-row">
+                <!-- Second row -->              
+		        <div class="row mb-4 second-row g-3">
 		            <div class="col-md-3">
-		            	<div class="box hover-card">
-		            		<div class="hover-img" style="background-image: url('image/OIF.webp');"></div>
-		            		<div class="hover-content">
-		            			<h5>Reports</h5>
+		            	<div class="box report ">
+		            
+		            		<div class="hover-content ">
+		            			<h5>Reports</h5> <hr>
 		            		    <p>Access annual reports, research insights, environmental assessments, and project documentation that highlight our progress in reforestation, wildlife protection, and land restoration. Our reports showcase data-driven impact and serve as a resource for educators, NGOs, policymakers, and sustainability advocates.</p>
 		            		</div>
 		            	</div> 
 		            </div>
 
 		            <div class="col-md-3">
-		            	<div class="box hover-card" >
-		            		<div class="hover-img" style="background-image: url('image/OIF.webp');"></div>
-		            		<div class="hover-content">
-		            			<h5>Webinars</h5>
+		            	<div class="box webinar align-items-stretch" >
+		            		
+		            		<div class="hover-content ">
+		            			<h5>Webinars</h5> <hr>
 		            		    <p>Join expert-led sessions covering biodiversity, ecosystem restoration, climate resilience, sustainable forestry, and community action. Our webinars connect scientists, activists, and young leaders through engaging discussions and real-world solutions.</p>
 		            		</div>
 		            	</div> 
 		            </div>
 
 		            <div class="col-md-3">
-		            	<div class="box hover-card">
-		            		<div class="hover-img" style="background-image: url('image/OIF.webp');"></div>
+		            	<div class="box community align-items-stretch">
+		            		
 		            	    <div class="hover-content">
-		            	    	<h5>Community</h5>
+		            	    	<h5>Community</h5> <hr>
 		            	        <p>Be part of a global network of volunteers, youth leaders, and environmental advocates. Our community collaborates on campaigns, shares success stories, participates in events, and contributes to ongoing conservation efforts both online and on the ground.</p>
 		            	    </div>
 		            	</div> 
 		            </div>
 
 		            <div class="col-md-3">
-		            	<div class="box hover-card">
-		            		<div class="hover-img" style="background-image: url('image/OIF.webp');"></div>
-		            	    <div class="hover-content">
-		            	    	<h5>Donation </h5>
+		            	<div class="box donation">
+		            		
+		            	    <div class="hover-content align-items-stretch">
+		            	    	<h5>Donation </h5> <hr>
 		            		    <p>Your contribution helps restore forests, protect endangered species, support local communities, and expand conservation technology. Every donation directly funds hands-on environmental projects and long-term sustainability programs.</p>
 		            	    </div>
 		            	</div> 
@@ -218,20 +220,23 @@
 		        </div>
 
 		      
-		        <!-- Third row-->
-
-		        <div class="row mt-4 third-row">
+		        <!-- Third row -->
+		        <div class="row mt-4 g-3 third-row">
 		            <div class="col-md-9 ">
-		                <div class="box overflow-hidden">
+		                <div class="box project-co align-items-stretch">
 		                	<h5>We Are the Life on Land Project Coalition on Sustainability </h5>
 		                
-		                	<p class="text">A flourishing life on land is the foundation for our life on this planet.We are all part of the planet’s ecosystem and we have caused severe damage to it through deforestation, loss of natural habitats and land degradation. Promoting a sustainable use of our ecosystems and preserving biodiversity is not a cause. It is the key to our own survival.</p>
+		                	<p id="text">A flourishing life on land is the foundation for our life on this planet.We are all part of the planet’s ecosystem and we have caused severe damage to it through deforestation, loss of natural habitats and land degradation. Promoting a sustainable use of our ecosystems and preserving biodiversity is not a cause. It is the key to our own survival.</p>
+
+		                	<div>
+		                		<img id="barimg" src="image/bar.png">
+		                	</div>
 		                </div> 
 		            </div>
 
 		            <div class="col-md-3">
 		                <div class="box">
-		                	<h5>Project Impact</h5>
+		                	<h5>Project Impact</h5> <hr>
 		                	<ul>
 		                		<li>Restored 5,000+ hectares of degraded land</li>
 		                		<li>Planted more than 250,000 native trees</li>
@@ -247,9 +252,102 @@
             </div>
         </section>
 
+        <!-- ******** page 2 ends ******** --> 
+        
 
+        <!-- ******** form validation ******** -->
 
-        <!-- page 2 ends -->
+        <section id="form-validate">
+        	<div class="container py-5 ">
+			    <div class="row g-4 ">
 
+			        <!-- Volunteer Form  -->
+			        <div class="col-lg-6 d-flex flex-column">
+			            <h3 class="mb-3 "> Become a Volunteer</h3>
+			            <div class="form-box d-flex flex-column flex-grow-1 h-100">
+			                <form id="volunteerForm" class="d-flex flex-column h-100">
+
+			                    <label class="fw-bold">Full Name *</label>
+			                    <input type="text" id="v_name" class="form-control" placeholder="Enter your full name">
+			                    <span class="error" id="v_name_error">Please enter a valid name.</span>
+
+			                    <label class="fw-bold mt-3">Email Address *</label>
+			                    <input type="email" id="v_email" class="form-control" placeholder="yourname@example.com">
+			                    <span class="error" id="v_email_error">Please enter a valid email.</span>
+
+			                    <label class="fw-bold mt-3">Age *</label>
+			                    <input type="number" id="v_age" class="form-control" placeholder="Your age">
+			                    <span class="error" id="v_age_error">You must be 16 or older.</span>
+
+			                    <label class="fw-bold mt-3">Country *</label>
+			                    <select id="v_country" class="form-select">
+			                        <option value="">Select country</option>
+			                        <option>Myanmar</option>
+			                        <option>Ireland</option>
+			                        <option>USA</option>
+			                        <option>UK</option>
+			                        <option>Australia</option>
+			                    </select>
+			                    <span class="error" id="v_country_error">Please select a country.</span>
+
+			                    <label class="fw-bold mt-3">Volunteer Area *</label>
+			                    <select id="v_area" class="form-select">
+			                        <option value="">Choose an area</option>
+			                        <option>Tree Planting</option>
+			                        <option>Wildlife Conservation</option>
+			                        <option>Community Awareness Programs</option>
+			                        <option>Environmental Education</option>
+			                        <option>Project Support</option>
+			                    </select>
+			                    <span class="error" id="v_area_error">Please select an area.</span>
+
+			                    <label class="fw-bold mt-3">Why do you want to volunteer? *</label>
+			                    <textarea id="v_reason" class="form-control" placeholder="Tell us why you want to join..." rows="4"></textarea>
+			                    <span class="error" id="v_reason_error">Minimum 30 characters.</span>
+
+			                    <button type="submit" class="btn btn-success mt-4 w-100">Join as Volunteer</button>
+			                </form>
+			            </div>
+			        </div>
+
+			        <!-- ======  Donation Form ====== -->
+			        <div class="col-lg-6 d-flex flex-column">
+			            <h3 class="mb-3 "> Make a Donation</h3>
+			            <div class="form-box d-flex flex-column flex-grow-1 h-100">
+			                <form id="donationForm" class="d-flex flex-column h-100">
+
+			                    <label class="fw-bold">Full Name (optional)</label>
+			                    <input type="text" id="d_name" class="form-control" placeholder="Enter your name">
+
+			                    <label class="fw-bold mt-3">Email Address *</label>
+			                    <input type="email" id="d_email" class="form-control" placeholder="yourname@example.com">
+			                    <span class="error" id="d_email_error">Please enter a valid email.</span>
+
+			                    <label class="fw-bold mt-3">Donation Amount (USD) *</label>
+			                    <input type="number" id="d_amount" class="form-control" placeholder="Enter amount">
+			                    <span class="error" id="d_amount_error">Minimum donation is $1.</span>
+
+			                    <label class="fw-bold mt-3">Payment Method *</label>
+			                    <select id="d_payment" class="form-select">
+			                        <option value="">Select payment method</option>
+			                        <option>Credit/Debit Card</option>
+			                        <option>PayPal</option>
+			                        <option>Bank Transfer</option>
+			                    </select>
+			                    <span class="error" id="d_payment_error">Please choose a payment method.</span>
+
+			                    <label class="fw-bold mt-3">Message / Dedication (optional)</label>
+			                    <textarea id="d_message" class="form-control" rows="4"></textarea>
+
+			                    <button type="submit" class="btn btn-primary w-100 align-btn">Donate Now</button>
+			                </form>
+			            </div>
+			        </div>
+
+			    </div>
+			</div>
+        </section>
+
+<script src="java.js"></script>
 </body>
 </html>
