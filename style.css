@@ -175,10 +175,11 @@
     color: black ;
     text-shadow: none;
 }
+
 /* Navbar End */
 
 
-/*  Page 1 start */
+/* -------- Project Page CSS starts ------*/
 
 #project {
     margin-top: 120px;
@@ -197,7 +198,8 @@
                 box-shadow 0.35s ease-in-out;
 }
 
-.content-box:hover{
+.content-box:hover,
+.content-box:focus{
     transform: scale(1.03);
     transition: 0.3 ease-in-out;
 }
@@ -306,7 +308,8 @@
 
 }
 
-.box:hover::before {
+.box:hover::before,
+.box:focus::before  {
     filter: blur(6px);
     opacity: 1;
 }
@@ -316,7 +319,8 @@
     z-index: 2;
 }
 
-.box:hover{
+.box:hover,
+.box:focus{
     transform: scale(1.05);
     transition: 0.3s ease-in-out;
 }
@@ -333,7 +337,7 @@
     }
 }
 
-/* First Row*/
+/* ----- First Row ----- */
 .column{
     display: flex;
     justify-content: space-between;
@@ -343,13 +347,13 @@
 }
 
 .overview{
-    background-image: url("image/overview.webp");
+    background-image: url("image/Sustainability-Risk-Mitigation-Blog.jpg");
     color: white;
 
 }
 
 .overview::before{
-    background-image: url("image/overview.webp");
+    background-image: url("image/Sustainability-Risk-Mitigation-Blog.jpg");
     background-size: cover;
     color: white;
 
@@ -384,7 +388,8 @@
     color: black;
 }
 
-.small-btn:hover {
+.small-btn:hover,
+.small-btn:focus {
     background: black;
     color: white;
     transform: scale(1.05);
@@ -403,10 +408,10 @@
     height: 100%;
 }
 
-/* Second Row */
+/* ------ Second Row ----- */
 
 .report{
-    background-image: url("image/report.webp");
+    background-image: url("image/Sustainability Analysis Australia.png");
     color: white;
 }
 
@@ -420,12 +425,13 @@
     color: white;
 }
 .donation{
-    background-image: url("image/donation.webp");
+    background-image: url("image/Introduction-to-Real-World-Sustainability-2.jpg");
     color: white;
+    
 }
 
 .report::before {
-    background-image: url("image/report.webp");
+    background-image: url("image/Sustainability Analysis Australia.png");
 }
 .webinar::before {
     background-image: url("image/webinar.jpg");
@@ -434,7 +440,7 @@
     background-image: url("image/community.jpg");
 }
 .donation::before {
-    background-image: url("image/donation.webp");
+    background-image: url("image/Introduction-to-Real-World-Sustainability-2.jpg");
 }
 .second-row p{
     text-align: justify;
@@ -450,6 +456,11 @@
 
 
 /* Third Row */
+
+#campaign li{
+    text-shadow: 2px 2px 6px black;
+    color: white;
+}
 
 .third-row{
     background-color: lightgrey;
@@ -504,10 +515,46 @@
     padding-left: 15px;
 }
 
+.project-co:hover,
+.project-co:focus{
+    transform: scale(1.02);
+}
+
+.pro-impact{
+    background-image: url("image/Energy-efficiency-in-buildings.jpeg");
+}
+
+.pro-impact::before{
+    background-image: url("image/Energy-efficiency-in-buildings.jpeg");
+}
 /* Page 2 End */ 
 
 
 /* Form Validation */
+
+#form-validate{
+    h3{
+        font-family: "Bebas Neue", sans-serif;
+    }
+    label{
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: italic;
+        text-shadow: 2px 2px 6px black;
+        color: white;
+    }
+    ::placeholder{
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: italic;
+    }
+    
+    select{
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: italic;
+    }
+}
 .form-box {
         background: white;
         padding: 25px;
@@ -531,6 +578,31 @@
     margin-top: 20px;
     }
 
+}
+
+.volunteer-bg {
+    background-image: url("image/bg.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.donation-bg {
+    background-image: url("image/donate.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.form-bg{
+    background-image: url("image/");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 
